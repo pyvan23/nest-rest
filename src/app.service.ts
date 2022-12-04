@@ -7,4 +7,10 @@ export class AppService {
       hola: 'mundo',
     };
   }
+
+  getCats() {
+    return {
+      cats: ['loki1', 'flor'],
+    };
+  }
 }
