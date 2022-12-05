@@ -10,7 +10,7 @@ export class AppService {
 
   getCats() {
     return {
-      cats: ['loki1', 'flor'],
+      cats: ['loki', 'nest cats'],
     };
   }
 }
